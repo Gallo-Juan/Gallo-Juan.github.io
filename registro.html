@@ -3,38 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
     <title>Registro</title>
     
 </head>
-<body>
+<body class="bg-body">
     <h1>Tu Rincón Online</h1>
-    <h2>Registrarse</h2>
-    <form action="" method="">
-        <div>
-            <label for="txtNombre">Nombre: </label><br><input type="text" id="txtNombre" name="txtNombre" placeholder="Escriba su Nombre..." required>
+    <div class="container-md">
+        <div class="card mt-5 bg-card">
+            <h3 class="card-header text-light text-center">Registro</h3>
+            <div class="card-body">
+                <form action="index.html" method="get">
+                    <div class="mb-3">
+                        <span class="text-light text-center">Nombre</span>
+                        <input type="text" name="Nombre" placeholder="Ingrese su Nombre..." class="form-control bg-input" required>
+                    </div>
+                    <div class="mb-3 ">
+                        <span class="text-light text-center">Apellido</span>
+                        <input type="text" name="Apellido" placeholder="Ingrese su Apellido..." class="form-control bg-input" required>
+                    </div>
+                    <div class="mb-3">
+                        <span class="text-light text-center">Email</span>
+                        <input type="email" name="email" placeholder="Ingrese su Email..." class="form-control bg-input" required>
+                    </div>
+                    <div class="mb-3">
+                        <span class="text-light text-center">Contraseña</span>
+                        <input type="password" name="pass" placeholder="Ingrese su Contraseña..." class="form-control bg-input" required>
+                    </div>
+                    <div class="mb-3">
+                        <span class="text-light text-center">Fecha de Nacimiento</span>
+                        <input type="date" name="FechaNac" class="form-control bg-input" required>
+                    </div>
+                    
+                    <div class="text-center">
+                        <input type="submit" value="Iniciar Sesión" class="btn btn-primary ">
+                    </div>
+                   
+                </form>
+            </div>
         </div>
-        <div>
-            <label for="txtApellido">Apellido: </label><br><input type="text" id="txtApellido" name="txtApellido" placeholder="Escriba su Apellido..." required>
+    </div>
+    <div class="container">
+        <div class="card bg-body mt-5">
+            <h5 class="card-header text-info text-center">¿Ya tenes cuenta?</h5>
+            <div class="card-body">
+                <form action="login.html">
+                    <div class="text-center">
+                        <input type="submit" class="btn btn-secondary" value="Ir a Inicio de Sesion">
+                    </div>
+                </form>
+            </div>
         </div>
-        <div>
-            <label for="txtEmail">Email: </label><br><input type="email" id="txtEmail" name="txtEmail" placeholder="ejemplo@gmail.com" required>
-        </div>
-        <div>
-            <label for="txtContrasenia">Contraseña: </label><br><input type="password" id="txtContrasenia" name="txtContrasenia" placeholder="Escriba una Contraseña..." required>
-        </div>
-        <div>
-            <label for="txtFechanac">Fecha de nacimiento: </label><br><input type="date" id="txtFechanac" name="txtFechanac" required>
-        </div>
-        
-        <div>
-            <input  type="submit" value="Confirmar">
-        </div>
-        <div>
-            <label>¿Tienes cuenta?</label>
-        </div>
-        <div>
-            <a  href="login.html">Inicia sesión</a>
-        </div>
-    </form>
+    </div>
 </body>
 </html>

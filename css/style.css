@@ -1,0 +1,27 @@
+.bg-body{
+    background-color: #010530 !important;
+}
+
+.bg-card{
+    background-color: #36354496 !important;
+}
+
+.bg-input{
+    background-color: #aba9bc !important;
+}
+
+.bg-nav-button{
+    background-color: #464555 !important;
+}
+
+.text-nav-logout{
+    color:#d6042e !important ;
+}
+
+.bg-logo{
+    background-color: #7d87f2 !important;
+}
+
+.nav-link:hover{
+    color: #7d87f2 !important;
+}
