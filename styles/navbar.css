@@ -1,0 +1,21 @@
+.bg-nav-button{
+    background-color: #464555 !important;
+}
+
+.text-nav-logout{
+    color:#d6042e !important ;
+}
+
+.bg-logo{
+    background-color: #7d87f2 !important;
+    text-align: center;
+}
+
+.nav-link:hover{
+    color: #7d87f2 !important;
+}
+
+.img-carrito{
+    margin-left: 10px;
+    margin-right: 10px;
+}

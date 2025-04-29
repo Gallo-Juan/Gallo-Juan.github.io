@@ -1,0 +1,24 @@
+@import url("./card.css");
+@import url("./login.css");
+@import url("./navbar.css");
+
+.bg-body{
+    background-color: #010530 !important;
+}
+#title{
+    color: white;
+    text-align: center;
+    font-style: bold;
+    margin-top: 10px;
+    
+}
+
+.titulo-categorias{
+    color: aliceblue;
+    text-align: center;
+}
+
+
+
+
+

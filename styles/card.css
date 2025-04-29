@@ -1,0 +1,36 @@
+.bg-card{
+    background-color: #36354496 !important;
+    color: white;
+}
+
+.card{
+    background-color: #7d87f2;
+}
+
+.input-cantidad{
+    background-color: #464555 !important;
+    color: white;
+    width: 50%;
+    border: 3px solid black;
+}
+
+
+.input-cantidad::placeholder , .input-cantidad:active, .input-cantidad:focus{
+    color: white;
+}
+
+.img-productos{
+    border-radius: 10px;
+    width: 80%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.price{
+    font-size:x-large;
+    
+}
+
+.card-header{
+    color: #e70505 !important;
+}

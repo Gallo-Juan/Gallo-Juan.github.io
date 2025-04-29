@@ -1,0 +1,17 @@
+.bg-input{
+    background-color: #aba9bc !important;
+}
+
+.img-login{
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.img-registro{
+    margin-top: 10px;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+}
