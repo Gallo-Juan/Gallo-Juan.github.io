@@ -1,5 +1,5 @@
-import { NavBar } from "../../components/NavBar.js"
-import { cardComponents } from "../../components/card.js"
+import { NavBar } from "/components/NavBar.js"
+import { cardComponents } from "/components/card.js"
 
 
 let cardContainer=document.getElementById('card-container')
